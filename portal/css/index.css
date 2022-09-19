@@ -1,0 +1,158 @@
+body{
+    /*background-color: rgb(150,150,150)*/
+}
+.logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.content{
+    text-align: center;
+    padding: 5px;
+}
+.divFindFolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/findFolderPreview.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divHelpUsers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/helpUserPreview.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divListaRamais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/ramaisPreview.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divAgendamentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/agendamentosPreview.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divRho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/rhoPreview.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divWebMail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/webmail.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divPortR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/portal.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divPortCod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/pcCodigoBarras.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divCarreteis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/carreteis1.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: contain;
+	
+}
+
+.divOrcamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/orcamentoPreview.png");
+    background-repeat: no-repeat,;
+    background-repeat: no-repeat;
+    background-size: contain;
+	
+}
+
+h1 {
+    text-align: center;
+}
+
+.boxExterno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 210px);
+}
+
+.divTituloCentral {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.boxButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: rgb(15, 75, 210);
+    border: 1px solid black;
+    /*color: white;*/
+}
+
+.card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.boxButton a:hover {
+    text-decoration: none;
+    /*color: white;*/
+}
+
+.vencido {
+    background: red;
+    color: white
+}
+
+.aVencer {
+    background: green;
+    color: white
+}
